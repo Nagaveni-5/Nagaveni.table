@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+   <title> Wood styled tables </title>
+  <style>
+  body {
+   margin:0;
+   font-family: 'Segoe UI', sans-serif;
+   background: linear gradient(to bottom right, lightgreen, darkseagreen, green);
+   padding:40px;
+   font-family: 'Segoe UI', sans-serif;
+   background: linear-gradient(to bottom, lightgreen, darkseagreen, green); 
+   background-attachment: fixed;
+  }
+ .title {
+   text-align: center;
+   font-size: 2rem;
+   margin-bottom: 20px;
+   color: sienna;
+}
+.nature-table {
+  width: 80%; margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  border-radius: 12px;
+  overflow: hidden;
+}
+.nature-table thead {
+   background-color: saddlebrown;
+   color: ivory; 
+}
+.nature-table th, nature-table td {
+  padding: 16px;
+  text-align: left;
+}
+.nature-table tbody tr:nth-child(even) {
+  background-color: beige;
+}
+.nature-table tbody trinth-child(odd) {
+  background-color: wheat; 
+}
+.nature-table tbody tr:hover { 
+  background-color: burlywood;
+}
+</style>
+</head>
+<body>
+ <div class="title"> Forest Themed Teak Table </div>
+ <table class="nature-table">
+ <thead> <tr> <th> Character </th> <th> Speciality </th> </tr> </thead>
+ <tbody>
+ <tr> <td> Dr. A.P.J Abdul Kalam </td> <td> Missile Man of India </td> </tr>
+ <tr> <td> Dr. B.R. Ambedkar </td> <td> Father of Indian Constitution </td> </tr> 
+ <tr> <td> Albert Einstein </td> <td> General Relativity </td> </tr> 
+ <tr> <td> Heisenberg </td> <td> Uncertainity Principle </td> </tr>
+ <tr> <td> Sir C.V Raman</td> <td> Raman Effect </td> </tr>
+ </tbody>
+ </table>
+</body>
+</html>
